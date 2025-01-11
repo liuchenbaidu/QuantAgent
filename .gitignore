@@ -1,0 +1,10 @@
+# 配置文件
+config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据文件
+data/ 

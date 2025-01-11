@@ -1,0 +1,8 @@
+api_keys:
+  deepseek: "your_deepseek_api_key"
+
+etf_codes:
+  中证红利ETF: "515180.SH"
+  纳斯达克ETF: "513100.SH"
+  黄金ETF: "518880.SH"
+  城投债ETF: "511800.SH" 
