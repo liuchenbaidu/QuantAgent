@@ -1,0 +1,339 @@
+2025-01-12 22:05:12,708 - INFO - 开始投资组合分析...
+2025-01-12 22:05:12,708 - INFO - 加载ETF数据...
+2025-01-12 22:05:12,723 - INFO - 计算收益率...
+2025-01-12 22:05:12,738 - INFO - 分析波动率...
+2025-01-12 22:05:12,738 - INFO - 绘制收益率图...
+2025-01-12 22:05:13,502 - INFO - 计算相关性...
+2025-01-12 22:05:13,723 - INFO - 优化投资组合权重...
+2025-01-12 22:05:13,736 - INFO - 分析投资组合有效前沿...
+2025-01-12 22:05:13,956 - INFO - 分析完成！结果已保存到 analysis_results 目录
+2025-01-12 22:10:45,284 - INFO - 开始投资组合分析...
+2025-01-12 22:10:45,284 - INFO - 加载ETF数据...
+2025-01-12 22:10:45,299 - INFO - 计算收益率...
+2025-01-12 22:10:45,314 - INFO - 分析波动率...
+2025-01-12 22:10:45,316 - INFO - 绘制收益率图...
+2025-01-12 22:10:45,673 - INFO - 计算相关性...
+2025-01-12 22:10:45,986 - INFO - 优化投资组合权重...
+2025-01-12 22:10:45,986 - INFO - 分析投资组合有效前沿...
+2025-01-12 22:10:46,415 - INFO - 分析完成！结果已保存到 analysis_results 目录
+2025-01-12 22:14:13,781 - INFO - 开始投资组合分析...
+2025-01-12 22:14:13,781 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:14:13,782 - INFO - 开始加载ETF数据...
+2025-01-12 22:14:13,799 - INFO - 已加载 中证红利 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:14:13,799 - INFO - 已加载 纳斯达克 数据: 1210 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:14:13,799 - INFO - 已加载 黄金 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:14:13,799 - INFO - 已加载 城投债 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:14:13,799 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:14:13,799 - INFO - 中证红利 总收益率: 24.86%, 年化收益率: 5.17%
+2025-01-12 22:14:13,799 - INFO - 纳斯达克 总收益率: -52.07%, 年化收益率: -10.84%
+2025-01-12 22:14:13,799 - INFO - 黄金 总收益率: 80.94%, 年化收益率: 16.84%
+2025-01-12 22:14:13,799 - INFO - 城投债 总收益率: 0.01%, 年化收益率: 0.00%
+2025-01-12 22:14:13,799 - INFO - 
+开始分析波动率...
+2025-01-12 22:14:13,799 - INFO - 中证红利 年化波动率: 17.95%, 最大回撤: -22.07%
+2025-01-12 22:14:13,799 - INFO - 纳斯达克 年化波动率: 44.58%, 最大回撤: -85.50%
+2025-01-12 22:14:13,799 - INFO - 黄金 年化波动率: 13.48%, 最大回撤: -20.47%
+2025-01-12 22:14:13,799 - INFO - 城投债 年化波动率: 0.27%, 最大回撤: -0.34%
+2025-01-12 22:14:13,799 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:14:14,176 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:14:14,487 - INFO - 中证红利 和 纳斯达克 的相关系数: 0.17
+2025-01-12 22:14:14,487 - INFO - 中证红利 和 黄金 的相关系数: 0.06
+2025-01-12 22:14:14,487 - INFO - 中证红利 和 城投债 的相关系数: -0.00
+2025-01-12 22:14:14,487 - INFO - 纳斯达克 和 黄金 的相关系数: 0.02
+2025-01-12 22:14:14,487 - INFO - 城投债 和 纳斯达克 的相关系数: 0.01
+2025-01-12 22:14:14,487 - INFO - 城投债 和 黄金 的相关系数: 0.00
+2025-01-12 22:14:14,487 - INFO - 
+基础分析完成，结果已保存
+2025-01-12 22:14:14,487 - INFO - 
+=== 第二部分：投资组合优化 ===
+2025-01-12 22:14:14,518 - INFO - 
+开始优化投资组合权重...
+2025-01-12 22:14:14,525 - INFO - 
+最优投资组合权重：
+2025-01-12 22:14:14,525 - INFO - 中证红利: 11.94%
+2025-01-12 22:14:14,525 - INFO - 纳斯达克: 0.31%
+2025-01-12 22:14:14,526 - INFO - 黄金: 87.76%
+2025-01-12 22:14:14,526 - INFO - 城投债: 0.00%
+2025-01-12 22:14:14,526 - INFO - 
+开始分析投资组合有效前沿...
+2025-01-12 22:14:14,948 - INFO - 
+有效前沿分析结果：
+2025-01-12 22:14:14,948 - INFO - 最高夏普比率: 1.03
+2025-01-12 22:14:14,948 - INFO - 最高收益率: 11.65%
+2025-01-12 22:14:14,948 - INFO - 最低风险: 4.90%
+2025-01-12 22:14:14,948 - INFO - 
+分析完成！所有结果已保存到 analysis_results 目录
+2025-01-12 22:20:46,508 - INFO - 开始投资组合分析...
+2025-01-12 22:20:46,509 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:20:46,509 - INFO - 开始加载ETF数据...
+2025-01-12 22:20:46,569 - INFO - 已加载 中证红利 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:20:46,569 - INFO - 已加载 纳斯达克 数据: 1210 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:20:46,569 - INFO - 已加载 黄金 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:20:46,569 - INFO - 已加载 城投债 数据: 1211 条记录, 时间范围: 2020-01-14 到 2025-01-10
+2025-01-12 22:20:46,569 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:20:46,569 - INFO - 中证红利 总收益率: 50.86%, 年化收益率: 10.58%
+2025-01-12 22:20:46,569 - INFO - 纳斯达克 总收益率: 139.64%, 年化收益率: 29.08%
+2025-01-12 22:20:46,569 - INFO - 黄金 总收益率: 80.94%, 年化收益率: 16.84%
+2025-01-12 22:20:46,569 - INFO - 城投债 总收益率: 0.01%, 年化收益率: 0.00%
+2025-01-12 22:20:46,584 - INFO - 
+开始分析波动率...
+2025-01-12 22:20:46,585 - INFO - 中证红利 年化波动率: 16.30%, 最大回撤: -17.31%
+2025-01-12 22:20:46,585 - INFO - 纳斯达克 年化波动率: 25.23%, 最大回撤: -28.57%
+2025-01-12 22:20:46,585 - INFO - 黄金 年化波动率: 13.48%, 最大回撤: -20.47%
+2025-01-12 22:20:46,585 - INFO - 城投债 年化波动率: 0.27%, 最大回撤: -0.34%
+2025-01-12 22:20:46,585 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:20:46,957 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:20:47,232 - INFO - 中证红利 和 纳斯达克 的相关系数: 0.26
+2025-01-12 22:20:47,232 - INFO - 中证红利 和 黄金 的相关系数: 0.06
+2025-01-12 22:20:47,232 - INFO - 中证红利 和 城投债 的相关系数: -0.00
+2025-01-12 22:20:47,247 - INFO - 纳斯达克 和 黄金 的相关系数: 0.03
+2025-01-12 22:20:47,247 - INFO - 城投债 和 纳斯达克 的相关系数: 0.04
+2025-01-12 22:20:47,247 - INFO - 城投债 和 黄金 的相关系数: 0.00
+2025-01-12 22:20:47,247 - INFO - 
+基础分析完成，结果已保存
+2025-01-12 22:20:47,247 - INFO - 
+=== 第二部分：投资组合优化 ===
+2025-01-12 22:20:47,272 - INFO - 
+开始优化投资组合权重...
+2025-01-12 22:20:47,279 - INFO - 
+最优投资组合权重：
+2025-01-12 22:20:47,279 - INFO - 中证红利: 13.66%
+2025-01-12 22:20:47,279 - INFO - 纳斯达克: 28.00%
+2025-01-12 22:20:47,281 - INFO - 黄金: 58.35%
+2025-01-12 22:20:47,281 - INFO - 城投债: 0.00%
+2025-01-12 22:20:47,281 - INFO - 
+开始分析投资组合有效前沿...
+2025-01-12 22:20:47,740 - INFO - 
+有效前沿分析结果：
+2025-01-12 22:20:47,741 - INFO - 最高夏普比率: 1.33
+2025-01-12 22:20:47,741 - INFO - 最高收益率: 18.79%
+2025-01-12 22:20:47,742 - INFO - 最低风险: 4.14%
+2025-01-12 22:20:47,743 - INFO - 
+分析完成！所有结果已保存到 analysis_results 目录
+2025-01-12 22:31:10,807 - INFO - 开始投资组合分析...
+2025-01-12 22:31:10,807 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:31:10,807 - INFO - 开始加载ETF数据...
+2025-01-12 22:31:10,857 - INFO - 已加载 中证红利 数据: 1227 条记录, 时间范围: 2019-12-20 到 2025-01-10
+2025-01-12 22:31:10,857 - INFO - 已加载 纳斯达克 数据: 1705 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:31:10,866 - INFO - 已加载 黄金 数据: 1706 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:31:10,866 - INFO - 已加载 城投债 数据: 736 条记录, 时间范围: 2021-11-30 到 2025-01-10
+2025-01-12 22:31:10,866 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:31:10,868 - INFO - 中证红利 总收益率: 57.20%, 年化收益率: 11.75%
+2025-01-12 22:31:10,868 - INFO - 纳斯达克 总收益率: 267.45%, 年化收益率: 39.53%
+2025-01-12 22:31:10,868 - INFO - 黄金 总收益率: 124.20%, 年化收益率: 18.35%
+2025-01-12 22:31:10,868 - INFO - 城投债 总收益率: 0.03%, 年化收益率: 0.01%
+2025-01-12 22:31:10,873 - INFO - 
+开始分析波动率...
+2025-01-12 22:31:10,875 - INFO - 中证红利 年化波动率: 16.24%, 最大回撤: -17.31%
+2025-01-12 22:31:10,875 - INFO - 纳斯达克 年化波动率: 23.80%, 最大回撤: -28.57%
+2025-01-12 22:31:10,875 - INFO - 黄金 年化波动率: 12.84%, 最大回撤: -20.47%
+2025-01-12 22:31:10,875 - INFO - 城投债 年化波动率: 0.31%, 最大回撤: -0.34%
+2025-01-12 22:31:10,876 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:31:11,227 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:31:11,227 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+Traceback (most recent call last):
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 158, in run_analysis
+    correlation = self.calculate_correlation(returns)
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 105, in calculate_correlation
+    daily_returns = pd.DataFrame({
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 670, in _extract_index
+    index = union_indexes(indexes)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\indexes\api.py", line 295, in union_indexes
+    raise TypeError("Cannot join tz-naive with tz-aware DatetimeIndex")
+TypeError: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:31:11,263 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:33:22,002 - INFO - 开始投资组合分析...
+2025-01-12 22:33:22,002 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:33:22,003 - INFO - 开始加载ETF数据...
+2025-01-12 22:33:22,029 - INFO - 已加载 中证红利 数据: 1227 条记录, 时间范围: 2019-12-20 到 2025-01-10
+2025-01-12 22:33:22,030 - INFO - 已加载 纳斯达克 数据: 1705 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:33:22,030 - INFO - 已加载 黄金 数据: 1706 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:33:22,030 - INFO - 已加载 城投债 数据: 736 条记录, 时间范围: 2021-11-30 到 2025-01-10
+2025-01-12 22:33:22,030 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:33:22,035 - INFO - 中证红利 总收益率: 57.20%, 年化收益率: 11.75%
+2025-01-12 22:33:22,036 - INFO - 纳斯达克 总收益率: 267.45%, 年化收益率: 39.53%
+2025-01-12 22:33:22,037 - INFO - 黄金 总收益率: 124.20%, 年化收益率: 18.35%
+2025-01-12 22:33:22,037 - INFO - 城投债 总收益率: 0.03%, 年化收益率: 0.01%
+2025-01-12 22:33:22,037 - INFO - 
+开始分析波动率...
+2025-01-12 22:33:22,038 - INFO - 中证红利 年化波动率: 16.24%, 最大回撤: -17.31%
+2025-01-12 22:33:22,038 - INFO - 纳斯达克 年化波动率: 23.80%, 最大回撤: -28.57%
+2025-01-12 22:33:22,038 - INFO - 黄金 年化波动率: 12.84%, 最大回撤: -20.47%
+2025-01-12 22:33:22,038 - INFO - 城投债 年化波动率: 0.31%, 最大回撤: -0.34%
+2025-01-12 22:33:22,038 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:33:22,395 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:33:22,395 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+Traceback (most recent call last):
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 158, in run_analysis
+    correlation = self.calculate_correlation(returns)
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 105, in calculate_correlation
+    daily_returns = pd.DataFrame({
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 670, in _extract_index
+    index = union_indexes(indexes)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\indexes\api.py", line 295, in union_indexes
+    raise TypeError("Cannot join tz-naive with tz-aware DatetimeIndex")
+TypeError: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:33:22,410 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:34:13,955 - INFO - 开始投资组合分析...
+2025-01-12 22:34:13,955 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:34:13,956 - INFO - 开始加载ETF数据...
+2025-01-12 22:34:13,989 - INFO - 已加载 中证红利 数据: 1227 条记录, 时间范围: 2019-12-20 到 2025-01-10
+2025-01-12 22:34:13,990 - INFO - 已加载 纳斯达克 数据: 1705 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:34:13,990 - INFO - 已加载 黄金 数据: 1706 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:34:13,990 - INFO - 已加载 城投债 数据: 736 条记录, 时间范围: 2021-11-30 到 2025-01-10
+2025-01-12 22:34:13,990 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:34:13,996 - INFO - 中证红利 总收益率: 57.20%, 年化收益率: 11.75%
+2025-01-12 22:34:13,996 - INFO - 纳斯达克 总收益率: 267.45%, 年化收益率: 39.53%
+2025-01-12 22:34:13,997 - INFO - 黄金 总收益率: 124.20%, 年化收益率: 18.35%
+2025-01-12 22:34:13,997 - INFO - 城投债 总收益率: 0.03%, 年化收益率: 0.01%
+2025-01-12 22:34:13,997 - INFO - 
+开始分析波动率...
+2025-01-12 22:34:13,999 - INFO - 中证红利 年化波动率: 16.24%, 最大回撤: -17.31%
+2025-01-12 22:34:13,999 - INFO - 纳斯达克 年化波动率: 23.80%, 最大回撤: -28.57%
+2025-01-12 22:34:13,999 - INFO - 黄金 年化波动率: 12.84%, 最大回撤: -20.47%
+2025-01-12 22:34:13,999 - INFO - 城投债 年化波动率: 0.31%, 最大回撤: -0.34%
+2025-01-12 22:34:14,000 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:34:14,360 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:34:14,360 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+Traceback (most recent call last):
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 158, in run_analysis
+    correlation = self.calculate_correlation(returns)
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 105, in calculate_correlation
+    daily_returns = pd.DataFrame({
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 670, in _extract_index
+    index = union_indexes(indexes)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\indexes\api.py", line 295, in union_indexes
+    raise TypeError("Cannot join tz-naive with tz-aware DatetimeIndex")
+TypeError: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:34:14,376 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:35:30,214 - INFO - 开始投资组合分析...
+2025-01-12 22:35:30,218 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:35:30,218 - INFO - 开始加载ETF数据...
+2025-01-12 22:35:30,261 - INFO - 已加载 中证红利 数据: 1227 条记录, 时间范围: 2019-12-20 到 2025-01-10
+2025-01-12 22:35:30,261 - INFO - 已加载 纳斯达克 数据: 1705 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:35:30,262 - INFO - 已加载 黄金 数据: 1706 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:35:30,262 - INFO - 已加载 城投债 数据: 736 条记录, 时间范围: 2021-11-30 到 2025-01-10
+2025-01-12 22:35:30,262 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:35:30,268 - INFO - 中证红利 总收益率: 57.20%, 年化收益率: 11.75%
+2025-01-12 22:35:30,268 - INFO - 纳斯达克 总收益率: 267.45%, 年化收益率: 39.53%
+2025-01-12 22:35:30,269 - INFO - 黄金 总收益率: 124.20%, 年化收益率: 18.35%
+2025-01-12 22:35:30,269 - INFO - 城投债 总收益率: 0.03%, 年化收益率: 0.01%
+2025-01-12 22:35:30,269 - INFO - 
+开始分析波动率...
+2025-01-12 22:35:30,271 - INFO - 中证红利 年化波动率: 16.24%, 最大回撤: -17.31%
+2025-01-12 22:35:30,272 - INFO - 纳斯达克 年化波动率: 23.80%, 最大回撤: -28.57%
+2025-01-12 22:35:30,272 - INFO - 黄金 年化波动率: 12.84%, 最大回撤: -20.47%
+2025-01-12 22:35:30,272 - INFO - 城投债 年化波动率: 0.31%, 最大回撤: -0.34%
+2025-01-12 22:35:30,272 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:35:30,643 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:35:30,643 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+Traceback (most recent call last):
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 158, in run_analysis
+    correlation = self.calculate_correlation(returns)
+  File "d:\QuantAgent\data_analysis\analyzer.py", line 105, in calculate_correlation
+    daily_returns = pd.DataFrame({
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\internals\construction.py", line 670, in _extract_index
+    index = union_indexes(indexes)
+  File "D:\QuantAgent\.conda\lib\site-packages\pandas\core\indexes\api.py", line 295, in union_indexes
+    raise TypeError("Cannot join tz-naive with tz-aware DatetimeIndex")
+TypeError: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:35:30,643 - ERROR - 分析过程中出错: Cannot join tz-naive with tz-aware DatetimeIndex
+2025-01-12 22:36:20,060 - INFO - 开始投资组合分析...
+2025-01-12 22:36:20,060 - INFO - 
+=== 第一部分：基础分析 ===
+2025-01-12 22:36:20,060 - INFO - 开始加载ETF数据...
+2025-01-12 22:36:20,085 - INFO - 已加载 中证红利 数据: 1227 条记录, 时间范围: 2019-12-20 到 2025-01-10
+2025-01-12 22:36:20,086 - INFO - 已加载 纳斯达克 数据: 1705 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:36:20,086 - INFO - 已加载 黄金 数据: 1706 条记录, 时间范围: 2018-01-02 到 2025-01-10
+2025-01-12 22:36:20,086 - INFO - 已加载 城投债 数据: 736 条记录, 时间范围: 2021-11-30 到 2025-01-10
+2025-01-12 22:36:20,086 - INFO - 
+开始计算收益率指标...
+2025-01-12 22:36:20,091 - INFO - 中证红利 总收益率: 57.20%, 年化收益率: 11.75%
+2025-01-12 22:36:20,091 - INFO - 纳斯达克 总收益率: 267.45%, 年化收益率: 39.53%
+2025-01-12 22:36:20,092 - INFO - 黄金 总收益率: 124.20%, 年化收益率: 18.35%
+2025-01-12 22:36:20,092 - INFO - 城投债 总收益率: 0.03%, 年化收益率: 0.01%
+2025-01-12 22:36:20,092 - INFO - 
+开始分析波动率...
+2025-01-12 22:36:20,094 - INFO - 中证红利 年化波动率: 16.24%, 最大回撤: -17.31%
+2025-01-12 22:36:20,094 - INFO - 纳斯达克 年化波动率: 23.80%, 最大回撤: -28.57%
+2025-01-12 22:36:20,095 - INFO - 黄金 年化波动率: 12.84%, 最大回撤: -20.47%
+2025-01-12 22:36:20,095 - INFO - 城投债 年化波动率: 0.31%, 最大回撤: -0.34%
+2025-01-12 22:36:20,096 - INFO - 
+生成累计收益率对比图...
+2025-01-12 22:36:20,459 - INFO - 
+计算ETF间相关性...
+2025-01-12 22:36:20,739 - INFO - 中证红利 和 纳斯达克 的相关系数: 0.16
+2025-01-12 22:36:20,739 - INFO - 中证红利 和 黄金 的相关系数: 0.06
+2025-01-12 22:36:20,739 - INFO - 中证红利 和 城投债 的相关系数: -0.03
+2025-01-12 22:36:20,739 - INFO - 纳斯达克 和 黄金 的相关系数: 0.03
+2025-01-12 22:36:20,739 - INFO - 城投债 和 纳斯达克 的相关系数: 0.02
+2025-01-12 22:36:20,739 - INFO - 城投债 和 黄金 的相关系数: 0.02
+2025-01-12 22:36:20,755 - INFO - 
+基础分析完成，结果已保存
+2025-01-12 22:36:20,755 - INFO - 
+=== 第二部分：投资组合优化 ===
+2025-01-12 22:36:20,781 - INFO - 
+开始优化投资组合权重...
+2025-01-12 22:36:20,790 - INFO - 
+最优投资组合权重：
+2025-01-12 22:36:20,790 - INFO - 中证红利: 12.51%
+2025-01-12 22:36:20,790 - INFO - 纳斯达克: 30.54%
+2025-01-12 22:36:20,793 - INFO - 黄金: 56.95%
+2025-01-12 22:36:20,793 - INFO - 城投债: 0.00%
+2025-01-12 22:36:20,793 - INFO - 
+开始分析投资组合有效前沿...
+2025-01-12 22:36:21,231 - INFO - 
+有效前沿分析结果：
+2025-01-12 22:36:21,231 - INFO - 最高夏普比率: 1.42
+2025-01-12 22:36:21,231 - INFO - 最高收益率: 19.30%
+2025-01-12 22:36:21,231 - INFO - 最低风险: 2.26%
+2025-01-12 22:36:21,231 - INFO - 
+分析完成！所有结果已保存到 analysis_results 目录

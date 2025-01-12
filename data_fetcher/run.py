@@ -1,9 +1,9 @@
-from data_fetch_agent import ETFDataAgent
+from .fetcher import ETFDataFetcher
 
 def main():
     print("开始获取ETF数据...")
-    agent = ETFDataAgent()
-    agent.fetch_data()
+    fetcher = ETFDataFetcher()
+    fetcher.fetch_all_data()
     print("数据获取完成！")
 
 if __name__ == "__main__":
